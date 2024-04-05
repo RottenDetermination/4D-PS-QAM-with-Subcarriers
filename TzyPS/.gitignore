@@ -1,0 +1,13 @@
+
+*.pyc
+*.swp
+*.png
+*.pdf
+
+/doc/_build
+/doc/generated
+/build
+/dist
+/OptiCommPy.egg-info
+optic/.vscode/settings.json
+.vscode/settings.json
