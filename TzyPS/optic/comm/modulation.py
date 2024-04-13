@@ -189,7 +189,6 @@ def modulateGray(bits, M, constType):
     if M != 2 and constType == "ook":
         logg.warn("OOK has only 2 symbols, but M != 2. Changing M to 2.")
         M = 2
-    if constType == "PS-QAM":
 
     bitsSymb = int(np.log2(M))
     const = GrayMapping(M, constType)
