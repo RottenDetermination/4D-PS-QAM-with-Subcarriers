@@ -1,5 +1,5 @@
-from CCDMIO import csv_to_Matrix, Matrix_to_csv
-from CCDMFunc import SymbolSign, LOG
+from optic.MDPS.CCDMIO import csv_to_Matrix, Matrix_to_csv
+from optic.MDPS.CCDMFunc import SymbolSign, LOG
 import numpy as np
 import ctypes
 from ctypes import *
